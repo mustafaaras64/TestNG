@@ -1,5 +1,5 @@
 # TestNG
-Created By QA Tester&Engineer Mustafa Aras 
+Created By QA Tester&Engineer Mustafa Aras. 
 This project shows fundamentals of TestNG Annotations.
 
 
