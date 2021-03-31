@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="6">
+	<listeners>
+		<listener class-name="Listeners.Listeners"/>
+	</listeners>
+
+	<parameter name="URL" value="nytimes.com"/>
+	<parameter name="APIKey" value="123456789"/>
+ 
+  <test thread-count="8" name="AmericanCarsTest">
+   <classes>
+      <class name="AmericanCars.CadillacTest"/>
+      <class name="AmericanCars.FordTest"/>
+      <class name="AmericanCars.GmcTest">    
+      		<methods>
+      			<include name="Gmc_Yukon_Test"/>
+      		</methods>
+      		</class>  		
+      <class name="AmericanCars.TeslaTest"/>    
+      <class name="AmericanCars.ChevyTest"/>
+      <class name="AmericanCars.JeepTest"/>    
+      <class name="AmericanCars.ChryslerTest"/>    
+      <class name="AmericanCars.DodgeTest"/>   
+   </classes>
+  </test>
+  
+  <test thread-count="4" name="GermanCarsTest">
+    	<groups>
+  		<run>
+  			<include name="MyFavGermans"/>
+  		</run>
+  		</groups>
+   	<classes>
+      <class name="GermanCars.BmwTest"/>
+      <class name="GermanCars.MercedesTest"/>
+      <class name="GermanCars.AudiTest"/>
+      <class name="GermanCars.VolkswagenTest"/>  
+  	</classes>
+   </test>
+  
+  <test thread-count="6" name="JapaneseCarsTest">
+     <classes>
+      <class name="JapanieseCars.MitsubishiTest"/> 
+      <class name="JapanieseCars.MazdaTest"/>
+      <class name="JapanieseCars.ToyotaTest"/>
+      <class name="JapanieseCars.LexusTest"/>
+      <class name="JapanieseCars.NissanTest">
+            <methods>
+      			<exclude name="Nissan_Altima.*"/>
+      		</methods>
+      		</class> 
+      <class name="JapanieseCars.HondaTest"/>
+  	 </classes>
+  </test>
+  
+</suite> <!-- Suite -->

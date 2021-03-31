@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="56" passed="44" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-31T12:40:53 CDT" name="Suite" finished-at="2021-03-31T12:40:53 CDT" duration-ms="59">
+    <groups>
+      <group name="MyFavAmericans">
+        <method signature="ChevyTest.Chevy_Camaro_Test()[pri:0, instance:AmericanCars.ChevyTest@4e268090]" name="Chevy_Camaro_Test" class="AmericanCars.ChevyTest"/>
+        <method signature="DodgeTest.Dodge_Charger_Test()[pri:0, instance:AmericanCars.DodgeTest@2beee7ff]" name="Dodge_Charger_Test" class="AmericanCars.DodgeTest"/>
+        <method signature="TeslaTest.Tesla_ModelX_Test()[pri:0, instance:AmericanCars.TeslaTest@152aa092]" name="Tesla_ModelX_Test" class="AmericanCars.TeslaTest"/>
+      </group> <!-- MyFavAmericans -->
+      <group name="MyFavGermans">
+        <method signature="AudiTest.Audi_RS4_Test()[pri:0, instance:GermanCars.AudiTest@be35cd9]" name="Audi_RS4_Test" class="GermanCars.AudiTest"/>
+        <method signature="BmwTest.Bmw_M4_Test()[pri:0, instance:GermanCars.BmwTest@29e495ff]" name="Bmw_M4_Test" class="GermanCars.BmwTest"/>
+        <method signature="MercedesTest.Mercedes_S300_Test()[pri:0, instance:GermanCars.MercedesTest@41e1e210]" name="Mercedes_S300_Test" class="GermanCars.MercedesTest"/>
+        <method signature="VolkswagenTest.Volkswagen_Arteon_Test()[pri:0, instance:GermanCars.VolkswagenTest@4944252c]" name="Volkswagen_Arteon_Test" class="GermanCars.VolkswagenTest"/>
+      </group> <!-- MyFavGermans -->
+    </groups>
+    <test started-at="2021-03-31T12:40:53 CDT" name="GermanCarsTest" finished-at="2021-03-31T12:40:53 CDT" duration-ms="29">
+      <class name="GermanCars.AudiTest">
+        <test-method signature="Audi_RS4_Test()[pri:0, instance:GermanCars.AudiTest@be35cd9]" started-at="2021-03-31T12:40:53 CDT" name="Audi_RS4_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Audi_RS4_Test -->
+      </class> <!-- GermanCars.AudiTest -->
+      <class name="GermanCars.MercedesTest">
+        <test-method signature="Mercedes_S300_Test()[pri:0, instance:GermanCars.MercedesTest@41e1e210]" started-at="2021-03-31T12:40:53 CDT" name="Mercedes_S300_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mercedes_S300_Test -->
+      </class> <!-- GermanCars.MercedesTest -->
+      <class name="GermanCars.BmwTest">
+        <test-method signature="Bmw_M4_Test()[pri:0, instance:GermanCars.BmwTest@29e495ff]" started-at="2021-03-31T12:40:53 CDT" name="Bmw_M4_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bmw_M4_Test -->
+      </class> <!-- GermanCars.BmwTest -->
+      <class name="GermanCars.VolkswagenTest">
+        <test-method signature="Volkswagen_Arteon_Test()[pri:0, instance:GermanCars.VolkswagenTest@4944252c]" started-at="2021-03-31T12:40:53 CDT" name="Volkswagen_Arteon_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Volkswagen_Arteon_Test -->
+      </class> <!-- GermanCars.VolkswagenTest -->
+    </test> <!-- GermanCarsTest -->
+    <test started-at="2021-03-31T12:40:53 CDT" name="JapaneseCarsTest" finished-at="2021-03-31T12:40:53 CDT" duration-ms="49">
+      <class name="JapanieseCars.MitsubishiTest">
+        <test-method signature="Mitsubishi_Evo_Test()[pri:0, instance:JapanieseCars.MitsubishiTest@6d3a388c]" started-at="2021-03-31T12:40:53 CDT" name="Mitsubishi_Evo_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mitsubishi_Evo_Test -->
+        <test-method signature="Mitsubishi_Lancer_Test()[pri:0, instance:JapanieseCars.MitsubishiTest@6d3a388c]" started-at="2021-03-31T12:40:53 CDT" name="Mitsubishi_Lancer_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mitsubishi_Lancer_Test -->
+        <test-method signature="Mitsubishi_Outlander_Test()[pri:0, instance:JapanieseCars.MitsubishiTest@6d3a388c]" started-at="2021-03-31T12:40:53 CDT" name="Mitsubishi_Outlander_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mitsubishi_Outlander_Test -->
+      </class> <!-- JapanieseCars.MitsubishiTest -->
+      <class name="JapanieseCars.NissanTest">
+        <test-method is-config="true" signature="Nissan_Before_Method()[pri:0, instance:JapanieseCars.NissanTest@20f5239f]" started-at="2021-03-31T12:40:53 CDT" name="Nissan_Before_Method" finished-at="2021-03-31T12:40:53 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Nissan_Before_Method -->
+        <test-method signature="Nissan_Maxima_Test()[pri:0, instance:JapanieseCars.NissanTest@20f5239f]" started-at="2021-03-31T12:40:53 CDT" name="Nissan_Maxima_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Nissan_Maxima_Test -->
+        <test-method is-config="true" signature="Nissan_Before_Method()[pri:0, instance:JapanieseCars.NissanTest@20f5239f]" started-at="2021-03-31T12:40:53 CDT" name="Nissan_Before_Method" finished-at="2021-03-31T12:40:53 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Nissan_Before_Method -->
+        <test-method signature="Nissan_Roque_Test()[pri:0, instance:JapanieseCars.NissanTest@20f5239f]" started-at="2021-03-31T12:40:53 CDT" name="Nissan_Roque_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Nissan_Roque_Test -->
+      </class> <!-- JapanieseCars.NissanTest -->
+      <class name="JapanieseCars.ToyotaTest">
+        <test-method is-config="true" signature="Toyota_Before_Test()[pri:0, instance:JapanieseCars.ToyotaTest@223aa2f7]" started-at="2021-03-31T12:40:53 CDT" name="Toyota_Before_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Toyota_Before_Test -->
+        <test-method signature="Toyota_Camry_Test()[pri:0, instance:JapanieseCars.ToyotaTest@223aa2f7]" started-at="2021-03-31T12:40:53 CDT" name="Toyota_Camry_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Toyota_Camry_Test -->
+        <test-method signature="Toyota_Corolla_Test()[pri:0, instance:JapanieseCars.ToyotaTest@223aa2f7]" started-at="2021-03-31T12:40:53 CDT" name="Toyota_Corolla_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Toyota_Corolla_Test -->
+        <test-method signature="Toyota_Rav4_Test()[pri:0, instance:JapanieseCars.ToyotaTest@223aa2f7]" started-at="2021-03-31T12:40:53 CDT" name="Toyota_Rav4_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Toyota_Rav4_Test -->
+      </class> <!-- JapanieseCars.ToyotaTest -->
+      <class name="JapanieseCars.LexusTest">
+        <test-method signature="Lexus_GS_Test()[pri:0, instance:JapanieseCars.LexusTest@193f604a]" started-at="2021-03-31T12:40:53 CDT" name="Lexus_GS_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lexus_GS_Test -->
+        <test-method signature="Lexus_LX_Test()[pri:0, instance:JapanieseCars.LexusTest@193f604a]" started-at="2021-03-31T12:40:53 CDT" name="Lexus_LX_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lexus_LX_Test -->
+        <test-method signature="Lexus_RC_Test()[pri:0, instance:JapanieseCars.LexusTest@193f604a]" started-at="2021-03-31T12:40:53 CDT" name="Lexus_RC_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lexus_RC_Test -->
+        <test-method is-config="true" signature="Lexus_After_Suite()[pri:0, instance:JapanieseCars.LexusTest@193f604a]" started-at="2021-03-31T12:40:53 CDT" name="Lexus_After_Suite" finished-at="2021-03-31T12:40:53 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lexus_After_Suite -->
+      </class> <!-- JapanieseCars.LexusTest -->
+      <class name="JapanieseCars.HondaTest">
+        <test-method signature="Honda_CRV_Test()[pri:0, instance:JapanieseCars.HondaTest@57af006c]" started-at="2021-03-31T12:40:53 CDT" name="Honda_CRV_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Honda_CRV_Test -->
+        <test-method signature="Honda_Civic_Test()[pri:0, instance:JapanieseCars.HondaTest@57af006c]" started-at="2021-03-31T12:40:53 CDT" name="Honda_Civic_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Honda_Civic_Test -->
+        <test-method signature="Honda_HRV_Test()[pri:0, instance:JapanieseCars.HondaTest@57af006c]" started-at="2021-03-31T12:40:53 CDT" name="Honda_HRV_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Honda_HRV_Test -->
+        <test-method is-config="true" signature="Honda_After_Test()[pri:0, instance:JapanieseCars.HondaTest@57af006c]" started-at="2021-03-31T12:40:53 CDT" name="Honda_After_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Honda_After_Test -->
+      </class> <!-- JapanieseCars.HondaTest -->
+      <class name="JapanieseCars.MazdaTest">
+        <test-method is-config="true" signature="Mazda_Before_Suite()[pri:0, instance:JapanieseCars.MazdaTest@50ad3bc1]" started-at="2021-03-31T12:40:53 CDT" name="Mazda_Before_Suite" finished-at="2021-03-31T12:40:53 CDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mazda_Before_Suite -->
+        <test-method signature="Mazda_6_Test()[pri:0, instance:JapanieseCars.MazdaTest@50ad3bc1]" started-at="2021-03-31T12:40:53 CDT" name="Mazda_6_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mazda_6_Test -->
+        <test-method signature="Mazda_CX5_Test()[pri:0, instance:JapanieseCars.MazdaTest@50ad3bc1]" started-at="2021-03-31T12:40:53 CDT" name="Mazda_CX5_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mazda_CX5_Test -->
+      </class> <!-- JapanieseCars.MazdaTest -->
+    </test> <!-- JapaneseCarsTest -->
+    <test started-at="2021-03-31T12:40:53 CDT" name="AmericanCarsTest" finished-at="2021-03-31T12:40:53 CDT" duration-ms="59">
+      <class name="AmericanCars.JeepTest">
+        <test-method signature="Jeep_Grandcherokee_Test()[pri:1, instance:AmericanCars.JeepTest@1bb266b3]" started-at="2021-03-31T12:40:53 CDT" name="Jeep_Grandcherokee_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Jeep_Grandcherokee_Test -->
+        <test-method signature="Jeep_Cherokee_Test()[pri:2, instance:AmericanCars.JeepTest@1bb266b3]" started-at="2021-03-31T12:40:53 CDT" name="Jeep_Cherokee_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Jeep_Cherokee_Test -->
+        <test-method signature="Jeep_Rubicon_Test()[pri:3, instance:AmericanCars.JeepTest@1bb266b3]" started-at="2021-03-31T12:40:53 CDT" name="Jeep_Rubicon_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Jeep_Rubicon_Test -->
+      </class> <!-- AmericanCars.JeepTest -->
+      <class name="AmericanCars.TeslaTest">
+        <test-method is-config="true" signature="Tesla_Before_Test()[pri:0, instance:AmericanCars.TeslaTest@152aa092]" started-at="2021-03-31T12:40:53 CDT" name="Tesla_Before_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tesla_Before_Test -->
+        <test-method signature="Tesla_Model3_Test()[pri:0, instance:AmericanCars.TeslaTest@152aa092]" started-at="2021-03-31T12:40:53 CDT" name="Tesla_Model3_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tesla_Model3_Test -->
+        <test-method signature="Tesla_ModelS_Test()[pri:0, instance:AmericanCars.TeslaTest@152aa092]" started-at="2021-03-31T12:40:53 CDT" name="Tesla_ModelS_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tesla_ModelS_Test -->
+        <test-method signature="Tesla_ModelX_Test()[pri:0, instance:AmericanCars.TeslaTest@152aa092]" started-at="2021-03-31T12:40:53 CDT" name="Tesla_ModelX_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tesla_ModelX_Test -->
+      </class> <!-- AmericanCars.TeslaTest -->
+      <class name="AmericanCars.ChevyTest">
+        <test-method signature="Chevy_Camaro_Test()[pri:0, instance:AmericanCars.ChevyTest@4e268090]" started-at="2021-03-31T12:40:53 CDT" name="Chevy_Camaro_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Chevy_Camaro_Test -->
+        <test-method signature="Chevy_Impala_Test()[pri:0, instance:AmericanCars.ChevyTest@4e268090]" started-at="2021-03-31T12:40:53 CDT" name="Chevy_Impala_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Chevy_Impala_Test -->
+        <test-method signature="Chevy_Silverado_Test()[pri:0, instance:AmericanCars.ChevyTest@4e268090]" started-at="2021-03-31T12:40:53 CDT" name="Chevy_Silverado_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Chevy_Silverado_Test -->
+      </class> <!-- AmericanCars.ChevyTest -->
+      <class name="AmericanCars.CadillacTest">
+        <test-method signature="Cadillac_Escalade_Test()[pri:0, instance:AmericanCars.CadillacTest@4ef37659]" started-at="2021-03-31T12:40:53 CDT" name="Cadillac_Escalade_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cadillac_Escalade_Test -->
+        <test-method signature="Cadillac_CT6_Test()[pri:0, instance:AmericanCars.CadillacTest@4ef37659]" started-at="2021-03-31T12:40:53 CDT" name="Cadillac_CT6_Test" finished-at="2021-03-31T12:40:53 CDT" depends-on-methods="AmericanCars.CadillacTest.Cadillac_Escalade_Test" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cadillac_CT6_Test -->
+        <test-method signature="Cadillac_XT5_Test()[pri:0, instance:AmericanCars.CadillacTest@4ef37659]" started-at="2021-03-31T12:40:53 CDT" name="Cadillac_XT5_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cadillac_XT5_Test -->
+      </class> <!-- AmericanCars.CadillacTest -->
+      <class name="AmericanCars.FordTest">
+        <test-method signature="Ford_Eclipse_Test()[pri:0, instance:AmericanCars.FordTest@776b83cc]" started-at="2021-03-31T12:40:53 CDT" name="Ford_Eclipse_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ford_Eclipse_Test -->
+        <test-method signature="Ford_Focus_Test()[pri:0, instance:AmericanCars.FordTest@776b83cc]" started-at="2021-03-31T12:40:53 CDT" name="Ford_Focus_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ford_Focus_Test -->
+        <test-method signature="Ford_Mustang_Test()[pri:0, instance:AmericanCars.FordTest@776b83cc]" started-at="2021-03-31T12:40:53 CDT" name="Ford_Mustang_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ford_Mustang_Test -->
+      </class> <!-- AmericanCars.FordTest -->
+      <class name="AmericanCars.DodgeTest">
+        <test-method signature="Dodge_Challenger_Test()[pri:0, instance:AmericanCars.DodgeTest@2beee7ff]" started-at="2021-03-31T12:40:53 CDT" name="Dodge_Challenger_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dodge_Challenger_Test -->
+        <test-method signature="Dodge_Charger_Test()[pri:0, instance:AmericanCars.DodgeTest@2beee7ff]" started-at="2021-03-31T12:40:53 CDT" name="Dodge_Charger_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dodge_Charger_Test -->
+        <test-method signature="Dodge_Durango_Test()[pri:0, instance:AmericanCars.DodgeTest@2beee7ff]" started-at="2021-03-31T12:40:53 CDT" name="Dodge_Durango_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dodge_Durango_Test -->
+        <test-method is-config="true" signature="Dodge_After_Test()[pri:0, instance:AmericanCars.DodgeTest@2beee7ff]" started-at="2021-03-31T12:40:53 CDT" name="Dodge_After_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dodge_After_Test -->
+      </class> <!-- AmericanCars.DodgeTest -->
+      <class name="AmericanCars.GmcTest">
+        <test-method signature="Gmc_Yukon_Test(java.lang.String, java.lang.String)[pri:0, instance:AmericanCars.GmcTest@37858383]" started-at="2021-03-31T12:40:53 CDT" name="Gmc_Yukon_Test" data-provider="getData" finished-at="2021-03-31T12:40:53 CDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gmc_Yukon_Test -->
+        <test-method signature="Gmc_Yukon_Test(java.lang.String, java.lang.String)[pri:0, instance:AmericanCars.GmcTest@37858383]" started-at="2021-03-31T12:40:53 CDT" name="Gmc_Yukon_Test" data-provider="getData" finished-at="2021-03-31T12:40:53 CDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gmc_Yukon_Test -->
+        <test-method signature="Gmc_Yukon_Test(java.lang.String, java.lang.String)[pri:0, instance:AmericanCars.GmcTest@37858383]" started-at="2021-03-31T12:40:53 CDT" name="Gmc_Yukon_Test" data-provider="getData" finished-at="2021-03-31T12:40:53 CDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gmc_Yukon_Test -->
+      </class> <!-- AmericanCars.GmcTest -->
+      <class name="AmericanCars.ChryslerTest">
+        <test-method signature="Chrysler_Pacifica_Test()[pri:0, instance:AmericanCars.ChryslerTest@306cf3ea]" started-at="2021-03-31T12:40:53 CDT" name="Chrysler_Pacifica_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Chrysler_Pacifica_Test -->
+        <test-method signature="Chrysler_200_Test()[pri:1, instance:AmericanCars.ChryslerTest@306cf3ea]" started-at="2021-03-31T12:40:53 CDT" name="Chrysler_200_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Chrysler_200_Test -->
+        <test-method signature="Chrysler_300S_Test()[pri:2, instance:AmericanCars.ChryslerTest@306cf3ea]" started-at="2021-03-31T12:40:53 CDT" name="Chrysler_300S_Test" finished-at="2021-03-31T12:40:53 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Chrysler_300S_Test -->
+      </class> <!-- AmericanCars.ChryslerTest -->
+    </test> <!-- AmericanCarsTest -->
+  </suite> <!-- Suite -->
+</testng-results>

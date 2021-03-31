@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>TestNG:  AmericanCarsTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AmericanCarsTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 31 12:40:53 CDT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (59 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AmericanCars.CadillacTest.Cadillac_CT6_Test()'><b>Cadillac_CT6_Test</b><br>Test class: AmericanCars.CadillacTest</td>
+<td></td>
+<td>0</td>
+<td>AmericanCars.CadillacTest@4ef37659</td></tr>
+<tr>
+<td title='AmericanCars.CadillacTest.Cadillac_Escalade_Test()'><b>Cadillac_Escalade_Test</b><br>Test class: AmericanCars.CadillacTest</td>
+<td></td>
+<td>0</td>
+<td>AmericanCars.CadillacTest@4ef37659</td></tr>
+<tr>
+<td title='AmericanCars.CadillacTest.Cadillac_XT5_Test()'><b>Cadillac_XT5_Test</b><br>Test class: AmericanCars.CadillacTest</td>
+<td></td>
+<td>0</td>
+<td>AmericanCars.CadillacTest@4ef37659</td></tr>
+<tr>
+<td title='AmericanCars.ChevyTest.Chevy_Camaro_Test()'><b>Chevy_Camaro_Test</b><br>Test class: AmericanCars.ChevyTest</td>
+<td></td>
+<td>0</td>
+<td>AmericanCars.ChevyTest@4e268090</td></tr>
+<tr>
+<td title='AmericanCars.ChevyTest.Chevy_Impala_Test()'><b>Chevy_Impala_Test</b><br>Test class: AmericanCars.ChevyTest</td>
+<td></td>
+<td>0</td>
+<td>AmericanCars.ChevyTest@4e268090</td></tr>
+<tr>
+<td title='AmericanCars.ChevyTest.Chevy_Silverado_Test()'><b>Chevy_Silverado_Test</b><br>Test class: AmericanCars.ChevyTest</td>
+<td></td>
+<td>0</td>
+<td>AmericanCars.ChevyTest@4e268090</td></tr>
+<tr>
+<td title='AmericanCars.ChryslerTest.Chrysler_200_Test()'><b>Chrysler_200_Test</b><br>Test class: AmericanCars.ChryslerTest</td>
+<td></td>
+<td>0</td>
+<td>AmericanCars.ChryslerTest@306cf3ea</td></tr>
+<tr>
+<td title='AmericanCars.ChryslerTest.Chrysler_300S_Test()'><b>Chrysler_300S_Test</b><br>Test class: AmericanCars.ChryslerTest</td>
+<td></td>
+<td>0</td>
+<td>AmericanCars.ChryslerTest@306cf3ea</td></tr>
+<tr>
+<td title='AmericanCars.ChryslerTest.Chrysler_Pacifica_Test()'><b>Chrysler_Pacifica_Test</b><br>Test class: AmericanCars.ChryslerTest</td>
+<td></td>
+<td>0</td>
+<td>AmericanCars.ChryslerTest@306cf3ea</td></tr>
+<tr>
+<td title='AmericanCars.DodgeTest.Dodge_Challenger_Test()'><b>Dodge_Challenger_Test</b><br>Test class: AmericanCars.DodgeTest</td>
+<td></td>
+<td>0</td>
+<td>AmericanCars.DodgeTest@2beee7ff</td></tr>
+<tr>
+<td title='AmericanCars.DodgeTest.Dodge_Charger_Test()'><b>Dodge_Charger_Test</b><br>Test class: AmericanCars.DodgeTest</td>
+<td></td>
+<td>0</td>
+<td>AmericanCars.DodgeTest@2beee7ff</td></tr>
+<tr>
+<td title='AmericanCars.DodgeTest.Dodge_Durango_Test()'><b>Dodge_Durango_Test</b><br>Test class: AmericanCars.DodgeTest</td>
+<td></td>
+<td>0</td>
+<td>AmericanCars.DodgeTest@2beee7ff</td></tr>
+<tr>
+<td title='AmericanCars.FordTest.Ford_Eclipse_Test()'><b>Ford_Eclipse_Test</b><br>Test class: AmericanCars.FordTest</td>
+<td></td>
+<td>0</td>
+<td>AmericanCars.FordTest@776b83cc</td></tr>
+<tr>
+<td title='AmericanCars.FordTest.Ford_Focus_Test()'><b>Ford_Focus_Test</b><br>Test class: AmericanCars.FordTest</td>
+<td></td>
+<td>0</td>
+<td>AmericanCars.FordTest@776b83cc</td></tr>
+<tr>
+<td title='AmericanCars.FordTest.Ford_Mustang_Test()'><b>Ford_Mustang_Test</b><br>Test class: AmericanCars.FordTest</td>
+<td></td>
+<td>0</td>
+<td>AmericanCars.FordTest@776b83cc</td></tr>
+<tr>
+<td title='AmericanCars.GmcTest.Gmc_Yukon_Test()'><b>Gmc_Yukon_Test</b><br>Test class: AmericanCars.GmcTest<br>Parameters: firstUsername, firstPassword</td>
+<td></td>
+<td>0</td>
+<td>AmericanCars.GmcTest@37858383</td></tr>
+<tr>
+<td title='AmericanCars.GmcTest.Gmc_Yukon_Test()'><b>Gmc_Yukon_Test</b><br>Test class: AmericanCars.GmcTest<br>Parameters: secondUsername, secondPassword</td>
+<td></td>
+<td>0</td>
+<td>AmericanCars.GmcTest@37858383</td></tr>
+<tr>
+<td title='AmericanCars.GmcTest.Gmc_Yukon_Test()'><b>Gmc_Yukon_Test</b><br>Test class: AmericanCars.GmcTest<br>Parameters: thirdUsername, thirdPassword</td>
+<td></td>
+<td>0</td>
+<td>AmericanCars.GmcTest@37858383</td></tr>
+<tr>
+<td title='AmericanCars.JeepTest.Jeep_Cherokee_Test()'><b>Jeep_Cherokee_Test</b><br>Test class: AmericanCars.JeepTest</td>
+<td></td>
+<td>0</td>
+<td>AmericanCars.JeepTest@1bb266b3</td></tr>
+<tr>
+<td title='AmericanCars.JeepTest.Jeep_Grandcherokee_Test()'><b>Jeep_Grandcherokee_Test</b><br>Test class: AmericanCars.JeepTest</td>
+<td></td>
+<td>0</td>
+<td>AmericanCars.JeepTest@1bb266b3</td></tr>
+<tr>
+<td title='AmericanCars.JeepTest.Jeep_Rubicon_Test()'><b>Jeep_Rubicon_Test</b><br>Test class: AmericanCars.JeepTest</td>
+<td></td>
+<td>0</td>
+<td>AmericanCars.JeepTest@1bb266b3</td></tr>
+<tr>
+<td title='AmericanCars.TeslaTest.Tesla_Model3_Test()'><b>Tesla_Model3_Test</b><br>Test class: AmericanCars.TeslaTest</td>
+<td></td>
+<td>0</td>
+<td>AmericanCars.TeslaTest@152aa092</td></tr>
+<tr>
+<td title='AmericanCars.TeslaTest.Tesla_ModelS_Test()'><b>Tesla_ModelS_Test</b><br>Test class: AmericanCars.TeslaTest</td>
+<td></td>
+<td>0</td>
+<td>AmericanCars.TeslaTest@152aa092</td></tr>
+<tr>
+<td title='AmericanCars.TeslaTest.Tesla_ModelX_Test()'><b>Tesla_ModelX_Test</b><br>Test class: AmericanCars.TeslaTest</td>
+<td></td>
+<td>0</td>
+<td>AmericanCars.TeslaTest@152aa092</td></tr>
+</table><p>
+</body>
+</html>
